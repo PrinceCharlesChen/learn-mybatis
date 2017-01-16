@@ -5,7 +5,7 @@ import com.myproject.models.User;
 import org.apache.ibatis.annotations.Param;
 
 
-public interface UserMapper{
+public interface UserDao {
 
 
     User getUserByID(@Param("id") int id);
